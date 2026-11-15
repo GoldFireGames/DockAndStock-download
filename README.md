@@ -7,7 +7,7 @@ Gra tycoon o prowadzeniu hurtowni i centrum dystrybucji. Wynajmujesz halę, staw
 ## Pobieranie
 
 1. Wejdź w zakładkę **[Releases](../../releases/latest)**.
-2. Pobierz `DockAndStock-Windows.zip`.
+2. Pobierz `DockAndStock-Windows-vX.Y.Z.zip` (w nazwie jest numer wersji).
 3. Rozpakuj i uruchom `DockAndStock.exe`.
 
 Wymagania: Windows 10/11, 64-bit.
@@ -32,6 +32,10 @@ Ceny, produkty, producenci, hale i balans są w zwykłych plikach JSON w folderz
 Gra jest we wczesnej wersji – błędy i pomysły mile widziane w zakładce **Issues**.
 
 ## Historia zmian
+
+### 0.4.1
+- Kółko myszy przybliża dużo mocniej (ok. 28% na ząbek przy czułości 100%, suwak do 400%); listy i panele przewijają się 3x szybciej.
+- Ustawienia: zmiany zapisują się dopiero po „Zastosuj zmiany”; nowy przycisk „Przywróć domyślne”; „Wróć bez zmian” cofa niezastosowane zmiany.
 
 ### 0.4.0
 - Zakupy: kafelki produktów ze zdjęciami; każdy produkt u kilku producentów, którzy różnią się ceną i czasem dostawy; cenniki zmieniają się co 3 dni; wybór czasu dostawy (48 h taniej, 24 h, 8 h drożej albo własny tir).
