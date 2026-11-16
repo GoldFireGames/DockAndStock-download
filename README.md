@@ -33,6 +33,18 @@ Gra jest we wczesnej wersji – błędy i pomysły mile widziane w zakładce **I
 
 ## Historia zmian
 
+### 0.5.0
+- Chłodnia: osobny budynek na placu obok hali (zakładka Hala). Budowa trwa dobę, potem włączasz generator chłodu: +8 °C po ok. pół godzinie, -18 °C po 4-5 h. Cały towar chłodzony i mrożony trafia do chłodni (własne doki od południa), pracownicy i sprzęt są wspólni. Chłodnię można rozbudować na wschód i północ. Lodówki przy regałach zniknęły: w starych zapisach regały chłodnicze stają się zwykłe, ze zwrotem części kosztu.
+- Regały: przypisanie do kategorii albo konkretnego produktu (Organizacja albo klik w regał). Towar, który nie pasuje, pracownicy przekładają, a w wolnym czasie przewożą towar z regałów ogólnych na przypisane.
+- Kontrakty: nowe na górze listy zleceń i własne fioletowe okienko „Nowy kontrakt”. Przy reputacji 90+ duże zamówienia sieci handlowych.
+- Finanse: na co idą pieniądze (kategorie, dziś / wczoraj / 7 dni) i obrót towaru.
+- Stałe dostawy: dni tygodnia, godzina, okres i producent; gra zamawia najtańszym trybem, który zdąży.
+- Dok: roleta bramy zwija się do góry, tir otwiera drzwi, a w środku widać palety. Małe zlecenia odbiera biały bus.
+- Rampa: najpierw wjeżdża tir, dla którego są gotowe palety; tir bez gotowego towaru zjeżdża na parking.
+- Bankructwo: najpierw dotacja rządowa, potem komornik (wybierasz, co oddajesz), dopiero za trzecim razem koniec gry.
+- Klikanie palet na wysokich poziomach regałów działa poprawnie; ręczne przenoszenie na wskazany poziom regału.
+- Płynne przewijanie list i zoomu, ściany rosną z najwyższym regałem, pracownicy z uprawnieniami biorą najpierw wózek widłowy, przestój tira dostawcy liczony dopiero po 3 h.
+
 ### 0.4.1
 - Kółko myszy przybliża dużo mocniej (ok. 28% na ząbek przy czułości 100%, suwak do 400%); listy i panele przewijają się 3x szybciej.
 - Ustawienia: zmiany zapisują się dopiero po „Zastosuj zmiany”; nowy przycisk „Przywróć domyślne”; „Wróć bez zmian” cofa niezastosowane zmiany.
