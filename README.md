@@ -33,6 +33,9 @@ Gra jest we wczesnej wersji – błędy i pomysły mile widziane w zakładce **I
 
 ## Historia zmian
 
+### 1.0.2
+- Ziemia w Centrum zarządzania od nowa: mapka działek obok szczegółów wybranej działki, wszystkie towary widoczne naraz i przycisk „Kup działkę” zawsze w zasięgu. Bez wybranej działki – lista wszystkich działek z wymiarami i ceną.
+
 ### 1.0.1
 - Regały: wózek widłowy obsługuje regały z alejki 2 kratek (poziomy 0–2). Wózek wysokiego składowania jest potrzebny tylko na poziomy 3–4. Okno regału, zakładka Sprzęt i komunikat pokazują, które miejsca są poza zasięgiem sprzętu i co zrobić.
 - Bilans towaru (Kontrakty → Bilans towaru): tygodniowy popyt z kontraktów odbiorców i zleceń kontra dostawy z kontraktów, zapas w dniach i ocena OK / RYZYKO / BRAKNIE.
