@@ -33,6 +33,21 @@ Gra jest we wczesnej wersji – błędy i pomysły mile widziane w zakładce **I
 
 ## Historia zmian
 
+### 1.0.0
+- Fabryki: kupujesz działkę i stawiasz fabrykę jednego z 11 towarów (woda, napój, proszek, mydło w płynie i w kostce, chipsy, czekolada, jogurt, ser, lody, mrożone warzywa). Każda linia ma własne maszyny, które łączysz taśmami i rurami jak w Factorio (prowadzenie myszką, łuki 90°, dołączanie taśmy z boku). Woda płynie rurą z ujęcia (pompa 1,5 m³/h).
+- Fabryki w praktyce: okno maszyny (co wchodzi, co wychodzi, z czym połączyć i czy jest połączone, przestawianie za darmo), linie połączeń nad halą (zielone = są, czerwone = brak), wloty i wyloty widoczne na modelach, komory chłodnicze, własni pracownicy, sprzęt i rekrutacja, sprzedaż hurtowa i przywożenie towaru do hurtowni (Zakupy albo Flota).
+- Statystyki fabryk w jednostkach SI: wydajność maszyn (kg/h, L/h), obciążenie z ostatniej godziny, moc w kW, bilans wody, zużycie surowców i zapas w godzinach.
+- Mapa: oddal kamerę, żeby zobaczyć działki przy trzech ulicach; kółkiem przybliżasz się prosto do zakładu pod kursorem. Sieć dróg, drzewa, światła nocą we wszystkich zakładach.
+- Baza floty na osobnej działce: parking na 150 zestawów, hotel kierowców (kierowcy chodzą pieszo do swoich ciężarówek), panel floty w stylu ETS2 (kolor każdego zestawu, stały kierowca), odbiory czekające na wolny zestaw z realnym czasem przyjazdu.
+- Kontrakty dostaw w osobnej zakładce: próg albo stała dostawa w wybrane dni i godziny, okres albo bezterminowo, stała cena, kara za zerwanie.
+- Sprzęt z grafikami i leasingiem na raty (do 10 albo 20 rat).
+- Doki: karta każdego doku z opisem rodzaju (rozładunek / załadunek / oba) i pierwszeństwa, edycja numeru, podgląd.
+- Wszystkie budynki (hala, chłodnia, socjalne, hotel, warsztat) mają tryby ścian: przekrój, ściany niskie, z dachem.
+- Informator: jak łączyć maszyny i przykłady wszystkich linii produkcji.
+- Mniejsze: najwyżej 3 pracowników przy jednym tirze, bezczynni odkładają przyjęte palety na regały, szybkie wysyłanie na szkolenie, kamera wraca po spacerze, automat w Centrum zarządzania nie pokazuje okienek, przycisk Zgłoś błąd.
+
+Zapisy z poprzednich wersji wczytują się; fabryki z dawnych zapisów przenoszą się na nowe miejsca działek.
+
 ### 0.5.0
 - Chłodnia: osobny budynek na placu obok hali (zakładka Hala). Budowa trwa dobę, potem włączasz generator chłodu: +8 °C po ok. pół godzinie, -18 °C po 4-5 h. Cały towar chłodzony i mrożony trafia do chłodni (własne doki od południa), pracownicy i sprzęt są wspólni. Chłodnię można rozbudować na wschód i północ. Lodówki przy regałach zniknęły: w starych zapisach regały chłodnicze stają się zwykłe, ze zwrotem części kosztu.
 - Regały: przypisanie do kategorii albo konkretnego produktu (Organizacja albo klik w regał). Towar, który nie pasuje, pracownicy przekładają, a w wolnym czasie przewożą towar z regałów ogólnych na przypisane.
