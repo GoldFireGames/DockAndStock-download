@@ -33,6 +33,13 @@ Gra jest we wczesnej wersji – błędy i pomysły mile widziane w zakładce **I
 
 ## Historia zmian
 
+### 1.0.1
+- Regały: wózek widłowy obsługuje regały z alejki 2 kratek (poziomy 0–2). Wózek wysokiego składowania jest potrzebny tylko na poziomy 3–4. Okno regału, zakładka Sprzęt i komunikat pokazują, które miejsca są poza zasięgiem sprzętu i co zrobić.
+- Bilans towaru (Kontrakty → Bilans towaru): tygodniowy popyt z kontraktów odbiorców i zleceń kontra dostawy z kontraktów, zapas w dniach i ocena OK / RYZYKO / BRAKNIE.
+- Automat dostaw: sam podpisuje albo powiększa kontrakty dostaw, gdy popyt nie jest pokryty. Automat kontraktów odbiorców nie przyjmuje kontraktu, którego producenci nie zaopatrzą.
+- Interfejs: mniejszy i bez nakładania się paneli, bez poziomych pasków przewijania, przycięte zbędne podpowiedzi. Zakupy mieszczą się w oknie.
+- Fabryki: F1 pokazuje i ukrywa linie połączeń maszyn; rura biegnąca obok maszyny ma widoczne zejście do niej.
+
 ### 1.0.0
 - Fabryki: kupujesz działkę i stawiasz fabrykę jednego z 11 towarów (woda, napój, proszek, mydło w płynie i w kostce, chipsy, czekolada, jogurt, ser, lody, mrożone warzywa). Każda linia ma własne maszyny, które łączysz taśmami i rurami jak w Factorio (prowadzenie myszką, łuki 90°, dołączanie taśmy z boku). Woda płynie rurą z ujęcia (pompa 1,5 m³/h).
 - Fabryki w praktyce: okno maszyny (co wchodzi, co wychodzi, z czym połączyć i czy jest połączone, przestawianie za darmo), linie połączeń nad halą (zielone = są, czerwone = brak), wloty i wyloty widoczne na modelach, komory chłodnicze, własni pracownicy, sprzęt i rekrutacja, sprzedaż hurtowa i przywożenie towaru do hurtowni (Zakupy albo Flota).
