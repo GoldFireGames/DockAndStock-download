@@ -24,7 +24,7 @@ Ceny, produkty, producenci, hale i balans są w zwykłych plikach JSON w folderz
 
 - Kamera: WASD / strzałki – ruch, Q / E – obrót, kółko myszy – przybliżenie
 - Spacer: przycisk **Spacer** albo przybliżenie do końca; G – widok z pierwszej osoby, Esc – powrót
-- B – tryb budowy, X – buldożer, N – widok ścian, I – tabela towaru
+- B – tryb budowy, X – buldożer, N – widok ścian, I – raport „Co się dzieje”
 - Spacja – pauza, 1/2/3 – prędkość gry
 - F5 / F9 – szybki zapis / wczytanie
 - Esc → **Informator** – zasady i mechaniki gry
@@ -32,6 +32,17 @@ Ceny, produkty, producenci, hale i balans są w zwykłych plikach JSON w folderz
 Gra jest we wczesnej wersji – błędy i pomysły mile widziane w zakładce **Issues**.
 
 ## Historia zmian
+
+### 1.0.3
+- Nowy wygląd interfejsu „Sterownia”: grafitowe tło, żółty akcent, czytelniejsze fonty. Górny pasek z kontem, poziomem, zakładkami zakładów, harmonogramem doków, zegarem i tempem gry; dolny pasek z grupami Operacje / Zasoby / Firma, dużym przyciskiem Budowa i licznikami (nowe zlecenia, tiry czekające na rampę).
+- Tablet z nawigacją po lewej, kartami najważniejszych liczb w każdej zakładce i żółtymi przyciskami „Przyjmij”. Przy otwartym tablecie dolny pasek się chowa.
+- Menu „i” jako stała szyna z lewej (Mapa / Dane) z panelem obok; działa też w fabrykach (stan linii, maszyny na mapie, magazyn, ludzie i sprzęt).
+- Wykresy z ostatnich 7 dni, nowe widoki Flota oraz Zakłady i produkcja; na mapie przy każdym zakładzie palety na tydzień.
+- Powiadomienia jako karty z prawej i historia pod dzwonkiem.
+- Kontrakty z dostawami co 2, 3 albo 7 dni. Od reputacji 60 duże kontrakty sieci handlowych na pełne palety.
+- Planer linii produkcji: ile maszyn potrzeba na zadaną liczbę palet tygodniowo.
+- Fabryka: przegląd w kafelku „Fabryka”, zatrudnianie od razu widoczne, bez przenoszenia ludzi między zakładami.
+- Poprawki: tiry pod dokami chłodni nie zawracają kilka razy, liczniki hurtowni nie liczą ludzi i tirów fabryk, przeprowadzka hali nie wyrzuca ludzi z fabryk, rzetelniejszy bilans towaru.
 
 ### 1.0.2
 - Ziemia w Centrum zarządzania od nowa: mapka działek obok szczegółów wybranej działki, wszystkie towary widoczne naraz i przycisk „Kup działkę” zawsze w zasięgu. Bez wybranej działki – lista wszystkich działek z wymiarami i ceną.
