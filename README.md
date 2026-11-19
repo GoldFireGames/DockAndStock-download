@@ -27,11 +27,19 @@ Ceny, produkty, producenci, hale i balans są w zwykłych plikach JSON w folderz
 - B – tryb budowy, X – buldożer, N – widok ścian, I – raport „Co się dzieje”
 - Spacja – pauza, 1/2/3 – prędkość gry
 - F5 / F9 – szybki zapis / wczytanie
+- F3 – licznik klatek
 - Esc → **Informator** – zasady i mechaniki gry
 
 Gra jest we wczesnej wersji – błędy i pomysły mile widziane w zakładce **Issues**.
 
 ## Historia zmian
+
+### 1.0.4
+- Wydajność: nieruchome elementy mapy (drogi, drzewa, słupki, linie, działki) rysowane razem, około pięciokrotnie mniej obiektów do narysowania. Cienie otoczenia w połowie rozdzielczości, lżejszy interfejs i mniej śmieci w pamięci co klatkę. W tej samej scenie ponad 35% więcej klatek.
+- Limit klatek (30 / 60 / 120 / bez limitu) działa też przy włączonym VSync, a gdy okno gry jest w tle, gra zwalnia do 30 kl./s i nie obciąża karty.
+- Licznik klatek w lewym dolnym rogu: klawisz F3 albo Ustawienia → Grafika.
+- Automat w Centrum przyjmuje zlecenia bez limitu 20 aktywnych.
+- Szerszy i czytelniejszy harmonogram doków w górnym pasku; tempo gry i Centrum przeniesione na dolny pasek.
 
 ### 1.0.3
 - Nowy wygląd interfejsu „Sterownia”: grafitowe tło, żółty akcent, czytelniejsze fonty. Górny pasek z kontem, poziomem, zakładkami zakładów, harmonogramem doków, zegarem i tempem gry; dolny pasek z grupami Operacje / Zasoby / Firma, dużym przyciskiem Budowa i licznikami (nowe zlecenia, tiry czekające na rampę).
